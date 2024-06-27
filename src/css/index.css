@@ -1,0 +1,70 @@
+
+html {
+  font-family: "Roboto", sans-serif;
+  background-color: #c4c4c4;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 500px;
+  height: 60px;
+  font-size: 54px;
+  padding: 5px 10px;
+}
+
+.wrapper {
+  background-color: #e3e3e3;
+  width: 500px;
+  margin-bottom: 45px;
+}
+.wrapper .repos-name {
+  cursor: pointer;
+}
+.wrapper .repos-name:hover {
+  background-color: #65CDF9;
+}
+
+.chosen-repos {
+  background-color: #e3e3e3;
+  width: 500px;
+}
+.chosen-repos .chosen {
+  background-color: #e27beb;
+  padding: 10px 34px 10px 13px;
+  height: 101px;
+  display: flex;
+  justify-content: space-between;
+}
+.chosen-repos .chosen .info {
+  font-size: 24px;
+}
+.chosen-repos .chosen .cross {
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+}
+.chosen-repos .chosen .cross::after {
+  content: "×";
+  font-size: 100px;
+  line-height: 0.2;
+  display: inline-block;
+  text-align: center;
+  font-weight: 200;
+  color: red;
+}
+
+.repos-name {
+  height: 44px;
+  border: 1px solid black;
+  margin-top: -1px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  font-size: 30px;
+}
